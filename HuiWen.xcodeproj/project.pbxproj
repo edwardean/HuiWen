@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA82CC781735DF3300F59F44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA82CC771735DF3300F59F44 /* UIKit.framework */; };
+		CA82CC7A1735DF3300F59F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA82CC791735DF3300F59F44 /* Foundation.framework */; };
+		CA82CC7C1735DF3300F59F44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA82CC7B1735DF3300F59F44 /* CoreGraphics.framework */; };
+		CA82CC821735DF3300F59F44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA82CC801735DF3300F59F44 /* InfoPlist.strings */; };
+		CA82CC841735DF3300F59F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82CC831735DF3300F59F44 /* main.m */; };
+		CA82CC881735DF3300F59F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82CC871735DF3300F59F44 /* AppDelegate.m */; };
+		CA82CC8A1735DF3300F59F44 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82CC891735DF3300F59F44 /* Default.png */; };
+		CA82CC8C1735DF3300F59F44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82CC8B1735DF3300F59F44 /* Default@2x.png */; };
+		CA82CC8E1735DF3300F59F44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82CC8D1735DF3300F59F44 /* Default-568h@2x.png */; };
+		CA82CC911735DF3300F59F44 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA82CC8F1735DF3300F59F44 /* MainStoryboard.storyboard */; };
+		CA82CC9C1735E13F00F59F44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82CC9B1735E13F00F59F44 /* MainViewController.m */; };
+		CA82CC9F1735E15600F59F44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82CC9E1735E15600F59F44 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA82CC741735DF3300F59F44 /* HuiWen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuiWen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA82CC771735DF3300F59F44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA82CC791735DF3300F59F44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA82CC7B1735DF3300F59F44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA82CC7F1735DF3300F59F44 /* HuiWen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HuiWen-Info.plist"; sourceTree = "<group>"; };
+		CA82CC811735DF3300F59F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA82CC831735DF3300F59F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA82CC851735DF3300F59F44 /* HuiWen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuiWen-Prefix.pch"; sourceTree = "<group>"; };
+		CA82CC861735DF3300F59F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA82CC871735DF3300F59F44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA82CC891735DF3300F59F44 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA82CC8B1735DF3300F59F44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA82CC8D1735DF3300F59F44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA82CC901735DF3300F59F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CA82CC9A1735E13F00F59F44 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CA82CC9B1735E13F00F59F44 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CA82CC9D1735E15600F59F44 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CA82CC9E1735E15600F59F44 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA82CC711735DF3300F59F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA82CC781735DF3300F59F44 /* UIKit.framework in Frameworks */,
+				CA82CC7A1735DF3300F59F44 /* Foundation.framework in Frameworks */,
+				CA82CC7C1735DF3300F59F44 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA82CC6B1735DF3300F59F44 = {
+			isa = PBXGroup;
+			children = (
+				CA82CC7D1735DF3300F59F44 /* HuiWen */,
+				CA82CC761735DF3300F59F44 /* Frameworks */,
+				CA82CC751735DF3300F59F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA82CC751735DF3300F59F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA82CC741735DF3300F59F44 /* HuiWen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA82CC761735DF3300F59F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA82CC771735DF3300F59F44 /* UIKit.framework */,
+				CA82CC791735DF3300F59F44 /* Foundation.framework */,
+				CA82CC7B1735DF3300F59F44 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA82CC7D1735DF3300F59F44 /* HuiWen */ = {
+			isa = PBXGroup;
+			children = (
+				CA82CC861735DF3300F59F44 /* AppDelegate.h */,
+				CA82CC871735DF3300F59F44 /* AppDelegate.m */,
+				CA82CC8F1735DF3300F59F44 /* MainStoryboard.storyboard */,
+				CA82CC7E1735DF3300F59F44 /* Supporting Files */,
+				CA82CC9A1735E13F00F59F44 /* MainViewController.h */,
+				CA82CC9B1735E13F00F59F44 /* MainViewController.m */,
+				CA82CC9D1735E15600F59F44 /* DetailViewController.h */,
+				CA82CC9E1735E15600F59F44 /* DetailViewController.m */,
+			);
+			path = HuiWen;
+			sourceTree = "<group>";
+		};
+		CA82CC7E1735DF3300F59F44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA82CC7F1735DF3300F59F44 /* HuiWen-Info.plist */,
+				CA82CC801735DF3300F59F44 /* InfoPlist.strings */,
+				CA82CC831735DF3300F59F44 /* main.m */,
+				CA82CC851735DF3300F59F44 /* HuiWen-Prefix.pch */,
+				CA82CC891735DF3300F59F44 /* Default.png */,
+				CA82CC8B1735DF3300F59F44 /* Default@2x.png */,
+				CA82CC8D1735DF3300F59F44 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA82CC731735DF3300F59F44 /* HuiWen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA82CC971735DF3300F59F44 /* Build configuration list for PBXNativeTarget "HuiWen" */;
+			buildPhases = (
+				CA82CC701735DF3300F59F44 /* Sources */,
+				CA82CC711735DF3300F59F44 /* Frameworks */,
+				CA82CC721735DF3300F59F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuiWen;
+			productName = HuiWen;
+			productReference = CA82CC741735DF3300F59F44 /* HuiWen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA82CC6C1735DF3300F59F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lihang;
+			};
+			buildConfigurationList = CA82CC6F1735DF3300F59F44 /* Build configuration list for PBXProject "HuiWen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA82CC6B1735DF3300F59F44;
+			productRefGroup = CA82CC751735DF3300F59F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA82CC731735DF3300F59F44 /* HuiWen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA82CC721735DF3300F59F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA82CC821735DF3300F59F44 /* InfoPlist.strings in Resources */,
+				CA82CC8A1735DF3300F59F44 /* Default.png in Resources */,
+				CA82CC8C1735DF3300F59F44 /* Default@2x.png in Resources */,
+				CA82CC8E1735DF3300F59F44 /* Default-568h@2x.png in Resources */,
+				CA82CC911735DF3300F59F44 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA82CC701735DF3300F59F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA82CC841735DF3300F59F44 /* main.m in Sources */,
+				CA82CC881735DF3300F59F44 /* AppDelegate.m in Sources */,
+				CA82CC9C1735E13F00F59F44 /* MainViewController.m in Sources */,
+				CA82CC9F1735E15600F59F44 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA82CC801735DF3300F59F44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA82CC811735DF3300F59F44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA82CC8F1735DF3300F59F44 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA82CC901735DF3300F59F44 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA82CC951735DF3300F59F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA82CC961735DF3300F59F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA82CC981735DF3300F59F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuiWen/HuiWen-Prefix.pch";
+				INFOPLIST_FILE = "HuiWen/HuiWen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA82CC991735DF3300F59F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HuiWen/HuiWen-Prefix.pch";
+				INFOPLIST_FILE = "HuiWen/HuiWen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA82CC6F1735DF3300F59F44 /* Build configuration list for PBXProject "HuiWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA82CC951735DF3300F59F44 /* Debug */,
+				CA82CC961735DF3300F59F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA82CC971735DF3300F59F44 /* Build configuration list for PBXNativeTarget "HuiWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA82CC981735DF3300F59F44 /* Debug */,
+				CA82CC991735DF3300F59F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA82CC6C1735DF3300F59F44 /* Project object */;
+}

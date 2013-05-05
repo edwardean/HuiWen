@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="B1k-vK-Att">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="B1k-vK-Att">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -12,17 +12,13 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4Xv-E0-m8k">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="174" id="25i-QZ-F8N"/>
-                                </constraints>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="4Xv-E0-m8k">
+                                <rect key="frame" x="42" y="121" width="174" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-9f-8tQ">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="FJB-6k-Ma5"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D4j-9f-8tQ">
+                                <rect key="frame" x="236" y="114" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Go">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,12 +33,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="D4j-9f-8tQ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="207" id="5BU-wC-hZz"/>
-                            <constraint firstItem="4Xv-E0-m8k" firstAttribute="top" secondItem="3" secondAttribute="top" constant="121" id="9ff-K1-d29"/>
-                            <constraint firstItem="4Xv-E0-m8k" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="42" id="LEL-8H-thL"/>
-                            <constraint firstItem="D4j-9f-8tQ" firstAttribute="centerX" secondItem="4Xv-E0-m8k" secondAttribute="centerX" type="default" id="PqM-dh-sYA"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="hpy-GB-gpk"/>
                     <connections>
@@ -61,7 +51,8 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bhU-rz-SiP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bhU-rz-SiP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="8sM-7B-fbf" style="IBUITableViewCellStyleDefault" id="dYn-cV-W2L">
@@ -71,7 +62,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sM-7B-fbf">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8sM-7B-fbf">
+                                                    <rect key="frame" x="10" y="0.0" width="300" height="43"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,12 +80,6 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="bhU-rz-SiP" firstAttribute="bottom" secondItem="t4c-f9-Gku" secondAttribute="bottom" type="default" id="8gi-wR-jvN"/>
-                            <constraint firstItem="bhU-rz-SiP" firstAttribute="top" secondItem="t4c-f9-Gku" secondAttribute="top" type="default" id="Mye-q5-CbU"/>
-                            <constraint firstItem="bhU-rz-SiP" firstAttribute="trailing" secondItem="t4c-f9-Gku" secondAttribute="trailing" type="default" id="alZ-9C-R9G"/>
-                            <constraint firstItem="bhU-rz-SiP" firstAttribute="leading" secondItem="t4c-f9-Gku" secondAttribute="leading" type="default" id="bDx-Yt-tw2"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="回文" id="iIo-af-0bh">
                         <barButtonItem key="backBarButtonItem" title="Main" id="mpX-v9-7Ka"/>
@@ -135,9 +121,6 @@
                 <relationship kind="action" name="Go:"/>
                 <relationship kind="outlet" name="text" candidateClass="UITextField"/>
             </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
